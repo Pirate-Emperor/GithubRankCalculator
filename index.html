@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Rank Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon Logo -->
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <!-- Main Logo Section -->
+    <div class="logo-container">
+        <img src="image.png" alt="GitHub Rank Calculator Logo" class="logo">
+    </div>
+
+    <h1>GitHub Rank Calculator</h1>
+    <div class="calculator">
+        <label for="commits">Number of Commits:</label>
+        <input id="commits" type="number" placeholder="Enter number of commits">
+
+        <label for="prs">Number of Pull Requests:</label>
+        <input id="prs" type="number" placeholder="Enter number of pull requests">
+
+        <label for="issues">Number of Issues:</label>
+        <input id="issues" type="number" placeholder="Enter number of issues">
+
+        <label for="reviews">Number of Reviews:</label>
+        <input id="reviews" type="number" placeholder="Enter number of reviews">
+
+        <label for="stars">Number of Stars:</label>
+        <input id="stars" type="number" placeholder="Enter number of stars">
+
+        <label for="followers">Number of Followers:</label>
+        <input id="followers" type="number" placeholder="Enter number of followers">
+
+        <label for="all_commits">
+            <input id="all_commits" type="checkbox"> Include all commits
+        </label>
+
+        <button onclick="calculateAndDisplayRank()">Calculate Rank</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
