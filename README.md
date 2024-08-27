@@ -89,6 +89,6 @@ This project is licensed under the MIT License. For more information, see the [L
 - Skype: [Join Skype](https://join.skype.com/invite/yfjOJG3wv9Ki)
 - Medium: [PirateKingRahul](https://medium.com/@piratekingrahul)
 
-Thank you for visiting the BigData Pipeline project!
+Thank you for visiting the Github Rank Calculator script!
 
 ---
