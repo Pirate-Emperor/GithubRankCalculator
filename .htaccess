@@ -1,0 +1,9 @@
+ErrorDocument 403 https://piratekingrahul.rf.gd/error.html/
+ErrorDocument 404 https://piratekingrahul.rf.gd/error.html/
+ErrorDocument 500 https://piratekingrahul.rf.gd/error.html/
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
